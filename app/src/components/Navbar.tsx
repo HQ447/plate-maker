@@ -72,7 +72,7 @@ export default function Navbar() {
               aria-label="ReplacementPlates.uk — Home"
             >
               {/* Logo Mark */}
-              <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-[#0084FF] to-[#0050CC] flex items-center justify-center shadow-lg group-hover:shadow-blue-500/40 transition-all duration-300 flex-shrink-0">
+              <div className="relative w-10 h-10 rounded-xl bg-gradient-to-br from-[#fde9a3] to-[#c89612] flex items-center justify-center shadow-lg group-hover:shadow-amber-500/40 transition-all duration-300 flex-shrink-0">
                 <span className="text-white font-black text-sm leading-none select-none">
                   RP
                 </span>
@@ -81,7 +81,7 @@ export default function Navbar() {
               <div className="flex flex-col">
                 <span className="text-white font-bold text-[15px] leading-tight tracking-tight">
                   ReplacementPlates
-                  <span className="text-[#38BDF8]">.uk</span>
+                  <span className="text-[#f3c544]">.uk</span>
                 </span>
                 <span className="text-[9px] text-slate-400 font-medium tracking-widest uppercase leading-tight">
                   DVLA REGISTERED RNPS 75449
@@ -119,7 +119,7 @@ export default function Navbar() {
                     )}
                   </Link>
                   {link.active && (
-                    <div className="absolute bottom-0 left-3 right-3 h-px bg-[#0084FF] rounded-full" />
+                    <div className="absolute bottom-0 left-3 right-3 h-px bg-[#f3c544] rounded-full" />
                   )}
 
                   {/* Dropdown */}
@@ -160,7 +160,7 @@ export default function Navbar() {
               >
                 <ShoppingCart className="w-4.5 h-4.5" />
                 {cartCount > 0 && (
-                  <span className="absolute -top-0.5 -right-0.5 w-4 h-4 bg-[#0084FF] rounded-full text-[10px] font-bold text-white flex items-center justify-center">
+                  <span className="absolute -top-0.5 -right-0.5 w-4 h-4 bg-[#f3c544] rounded-full text-[10px] font-bold text-slate-950 flex items-center justify-center">
                     {cartCount}
                   </span>
                 )}

@@ -17,16 +17,16 @@ type Reason = (typeof reasons)[number];
 
 function ReasonCard({ id, icon: Icon, title, description, href, image, imageAlt }: Reason) {
   return (
-    <Link id={id} href={href} aria-label={title} className="group flex min-h-[255px] flex-col overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-[0_8px_24px_rgba(15,23,42,.06)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_38px_rgba(15,23,42,.14)]">
+    <Link id={id} href={href} aria-label={title} className="glass-card glass-card-light group flex min-h-[255px] flex-col overflow-hidden rounded-2xl border border-white/70 shadow-[0_8px_24px_rgba(15,23,42,.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_38px_rgba(15,23,42,.16)]">
       <div className="relative h-28 shrink-0 overflow-hidden bg-slate-100 sm:h-32">
         <Image src={image} alt={imageAlt} fill className="object-cover transition duration-500 group-hover:scale-105" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" />
         <div className="absolute inset-0 bg-gradient-to-t from-slate-950/35 via-transparent to-transparent" />
-        <span className="absolute bottom-[11px] left-4 flex h-9 w-9 items-center justify-center rounded-full border border-white/90 bg-white text-blue-600 shadow-lg transition group-hover:scale-110"><Icon className="h-4 w-4" /></span>
+        <span className="absolute bottom-[11px] left-4 flex h-9 w-9 items-center justify-center rounded-full border border-white/90 bg-white text-[#c89612] shadow-lg transition group-hover:scale-110"><Icon className="h-4 w-4" /></span>
       </div>
       <div className="flex flex-1 flex-col p-4 pt-6 sm:p-5 sm:pt-6">
         <h3 className="text-[15px] font-extrabold leading-snug tracking-[-.02em] text-slate-950">{title}</h3>
         <p className="mt-2 flex-1 text-[13px] leading-5 text-slate-500">{description}</p>
-        <span className="mt-4 flex h-8 w-8 items-center justify-center self-end rounded-full border border-slate-200 bg-slate-50 text-slate-400 transition group-hover:border-blue-500 group-hover:bg-blue-500 group-hover:text-white"><ArrowRight className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" /></span>
+        <span className="mt-4 flex h-8 w-8 items-center justify-center self-end rounded-full border border-slate-200 bg-slate-50 text-slate-400 transition group-hover:border-[#f3c544] group-hover:bg-[#f3c544] group-hover:text-slate-950"><ArrowRight className="h-3.5 w-3.5 transition group-hover:translate-x-0.5" /></span>
       </div>
     </Link>
   );
@@ -39,8 +39,8 @@ export default function WhyReplacingSection() {
       <div className="mx-auto max-w-[1280px] px-5 pb-22 pt-6 sm:px-8 lg:px-10 ">
         <div className="mb-7 grid gap-5 lg:grid-cols-[1fr_360px] lg:items-end lg:gap-12">
           <div>
-            <div className="mb-3 flex items-center text-[11px] font-bold uppercase tracking-[.18em] text-blue-600">Common reasons</div>
-            <h2 id="why-replacing-heading" className="max-w-[620px] text-[clamp(2.05rem,4vw,3.25rem)] font-black leading-[1.04] tracking-[-.05em] text-slate-950">Why are you replacing <span className="text-blue-600">your plates?</span></h2>
+            <div className="mb-3 flex items-center text-[11px] font-bold uppercase tracking-[.18em] text-[#c89612]">Common reasons</div>
+            <h2 id="why-replacing-heading" className="max-w-[620px] text-[clamp(2.05rem,4vw,3.25rem)] font-black leading-[1.04] tracking-[-.05em] text-slate-950">Why are you replacing <span className="text-[#c89612]">your plates?</span></h2>
           </div>
           <p className="max-w-sm text-sm leading-6 text-slate-500 lg:pb-1">From damage to loss or an MOT failure, there are many reasons you might need new number plates. Find your reason below and get the right information.</p>
         </div>
