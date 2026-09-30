@@ -1,0 +1,12 @@
+export { default as HeroSection } from "./HeroSection";
+export { default as WhyReplacingSection } from "./WhyReplacingSection";
+export { default as PlateStylesSection } from "./PlateStylesSection";
+export { default as MadeToOrderSection } from "./MadeToOrderSection";
+export { default as DeliverySection } from "./DeliverySection";
+export { default as HowToOrderSection } from "./HowToOrderSection";
+export { default as LegalSection } from "./LegalSection";
+export { default as GuidesSection } from "./GuidesSection";
+export { default as SupplierSection } from "./SupplierSection";
+export { default as FaqSection } from "./FaqSection";
+export { default as FinalCtaSection } from "./FinalCtaSection";
+export { default as SiteFooter } from "./SiteFooter";

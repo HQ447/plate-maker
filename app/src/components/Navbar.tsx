@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import {
   Search,
   ShoppingCart,
@@ -39,6 +40,7 @@ const navLinks = [
 ];
 
 export default function Navbar() {
+  const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -100,27 +102,34 @@ export default function Navbar() {
                   }
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                  <Link
-                    href={link.href}
-                    className={`flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
-                      link.active
-                        ? "text-white"
-                        : "text-slate-300 hover:text-white hover:bg-white/5"
-                    }`}
-                    aria-current={link.active ? "page" : undefined}
-                  >
-                    {link.label}
-                    {link.dropdown && (
-                      <ChevronDown
-                        className={`w-3.5 h-3.5 transition-transform duration-200 ${
-                          activeDropdown === link.label ? "rotate-180" : ""
-                        }`}
-                      />
-                    )}
-                  </Link>
-                  {link.active && (
-                    <div className="absolute bottom-0 left-3 right-3 h-px bg-[#f3c544] rounded-full" />
-                  )}
+                  {(() => {
+                    const isActive = link.href === "/" ? pathname === "/" : pathname.startsWith(link.href);
+                    return (
+                      <>
+                        <Link
+                          href={link.href}
+                          className={`flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                            isActive
+                              ? "text-white"
+                              : "text-slate-300 hover:text-white hover:bg-white/5"
+                          }`}
+                          aria-current={isActive ? "page" : undefined}
+                        >
+                          {link.label}
+                          {link.dropdown && (
+                            <ChevronDown
+                              className={`w-3.5 h-3.5 transition-transform duration-200 ${
+                                activeDropdown === link.label ? "rotate-180" : ""
+                              }`}
+                            />
+                          )}
+                        </Link>
+                        {isActive && (
+                          <div className="absolute bottom-0 left-3 right-3 h-px bg-[#f3c544] rounded-full" />
+                        )}
+                      </>
+                    );
+                  })()}
 
                   {/* Dropdown */}
                   {link.dropdown && activeDropdown === link.label && (
@@ -168,7 +177,7 @@ export default function Navbar() {
 
               {/* Primary CTA */}
               <Link
-                href="#configurator"
+                href="/#configurator"
                 id="navbar-build-cta"
                 className="hidden sm:flex items-center gap-2 bg-[#f3c544] hover:bg-[#f7d465] text-slate-950 font-semibold text-sm px-5 py-2.5 rounded-full transition-all duration-200 hover:shadow-lg hover:shadow-amber-500/30 hover:scale-[1.02] active:scale-[0.98]"
               >
@@ -214,12 +223,14 @@ export default function Navbar() {
           }`}
         >
           <nav className="p-4 flex flex-col gap-1" aria-label="Mobile navigation">
-            {navLinks.map((link) => (
-              <div key={link.label}>
+                  {navLinks.map((link) => {
+                    const isActive = link.href === "/" ? pathname === "/" : pathname.startsWith(link.href);
+                    return (
+                  <div key={link.label}>
                 <Link
                   href={link.href}
                   className={`flex items-center justify-between px-4 py-3 rounded-xl text-sm font-medium transition-all duration-200 ${
-                    link.active
+                      isActive
                       ? "text-white bg-white/8"
                       : "text-slate-300 hover:text-white hover:bg-white/5"
                   }`}
@@ -242,11 +253,12 @@ export default function Navbar() {
                     ))}
                   </div>
                 )}
-              </div>
-            ))}
+                  </div>
+                    );
+                  })}
             <div className="mt-3 pt-3 border-t border-white/10 flex flex-col gap-2">
               <Link
-                href="#configurator"
+                href="/#configurator"
                 className="flex items-center justify-center gap-2 bg-[#f3c544] hover:bg-[#f7d465] text-slate-950 font-semibold text-sm px-5 py-3 rounded-full transition-all duration-200"
                 onClick={() => setMobileOpen(false)}
               >

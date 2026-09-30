@@ -1,7 +1,18 @@
 import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/HeroSection";
-import WhyReplacingSection from "@/components/WhyReplacingSection";
-import PlateStylesSection from "@/components/PlateStylesSection";
+import {
+  DeliverySection,
+  FaqSection,
+  FinalCtaSection,
+  HeroSection,
+  GuidesSection,
+  HowToOrderSection,
+  LegalSection,
+  MadeToOrderSection,
+  PlateStylesSection,
+  SiteFooter,
+  SupplierSection,
+  WhyReplacingSection,
+} from "@/components/sections/HomePage";
 
 export default function HomePage() {
   return (
@@ -10,11 +21,15 @@ export default function HomePage() {
       <HeroSection />
       <WhyReplacingSection />
       <PlateStylesSection />
-      {/* Delivery Section — Phase 3 */}
-      {/* How to Order Section — Phase 3 */}
-      {/* Guides Section — Phase 3 */}
-      {/* FAQs Section — Phase 3 */}
-      {/* Footer — Phase 3 */}
+      <DeliverySection />
+      <HowToOrderSection />
+      <LegalSection />
+      <GuidesSection />
+      <SupplierSection />
+      <FaqSection />
+      <MadeToOrderSection />
+      <FinalCtaSection />
+      <SiteFooter />
     </main>
   );
 }

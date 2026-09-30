@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="3200" viewBox="0 0 1440 3200" role="img" aria-labelledby="title desc">
+  <title id="title">ReplacementPlates.uk homepage — first three sections after hero</title>
+  <desc id="desc">A glassmorphic dark and light UI design for the made-to-order explainer, replacement reasons, and number plate style chooser sections.</desc>
+  <defs>
+    <linearGradient id="darkBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07101e"/>
+      <stop offset="0.52" stop-color="#0b1a2d"/>
+      <stop offset="1" stop-color="#040a13"/>
+    </linearGradient>
+    <linearGradient id="darkPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#213b5d" stop-opacity="0.72"/>
+      <stop offset="0.48" stop-color="#111f34" stop-opacity="0.68"/>
+      <stop offset="1" stop-color="#0a1220" stop-opacity="0.94"/>
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f8cff"/>
+      <stop offset="1" stop-color="#1261e9"/>
+    </linearGradient>
+    <linearGradient id="lightBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbfcff"/>
+      <stop offset="1" stop-color="#edf3fa"/>
+    </linearGradient>
+    <linearGradient id="photoA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#9eb6cd"/><stop offset="0.47" stop-color="#61758b"/><stop offset="1" stop-color="#162538"/>
+    </linearGradient>
+    <linearGradient id="photoB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c6a286"/><stop offset="0.45" stop-color="#695244"/><stop offset="1" stop-color="#161a23"/>
+    </linearGradient>
+    <linearGradient id="photoC" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1a2533"/><stop offset="0.5" stop-color="#05080e"/><stop offset="1" stop-color="#122e52"/>
+    </linearGradient>
+    <linearGradient id="photoD" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7c6c59"/><stop offset="0.54" stop-color="#302921"/><stop offset="1" stop-color="#10151c"/>
+    </linearGradient>
+    <linearGradient id="plateWhite" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffffff"/><stop offset="0.55" stop-color="#d9e3ec"/><stop offset="1" stop-color="#90a3b4"/>
+    </linearGradient>
+    <linearGradient id="plateBlack" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#35475c"/><stop offset="0.45" stop-color="#0f1826"/><stop offset="1" stop-color="#03060c"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#00152d" flood-opacity="0.22"/>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0a315d" flood-opacity="0.16"/>
+    </filter>
+    <filter id="blurGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#9fc8ff" stroke-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- SECTION 1: made to order -->
+  <rect width="1440" height="900" fill="url(#darkBg)"/>
+  <rect width="1440" height="900" fill="url(#grid)"/>
+  <ellipse cx="1180" cy="270" rx="360" ry="260" fill="#1473ff" opacity="0.16" filter="url(#blurGlow)"/>
+  <ellipse cx="280" cy="760" rx="260" ry="120" fill="#00a3ff" opacity="0.10" filter="url(#blurGlow)"/>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="86" y="102" font-size="16" font-weight="700" letter-spacing="3" fill="#79b6ff">REPLACEMENTPLATES.UK  /  HOW IT WORKS</text>
+    <text x="86" y="185" font-size="56" font-weight="800" fill="#f7fbff">Replacement number plates,</text>
+    <text x="86" y="250" font-size="56" font-weight="800" fill="#2e91ff">made to order.</text>
+    <text x="88" y="304" font-size="20" fill="#bfd0e4">A clear, simple process from registration to delivery.</text>
+    <text x="88" y="336" font-size="20" fill="#bfd0e4">Pick what you need, upload your documents, and we make it right.</text>
+
+    <g transform="translate(86 410)">
+      <rect width="392" height="280" rx="28" fill="url(#darkPanel)" stroke="#5a87b8" stroke-opacity="0.32"/>
+      <circle cx="58" cy="60" r="28" fill="url(#blueGlow)"/>
+      <text x="58" y="68" font-size="25" text-anchor="middle" fill="#fff" font-weight="700">1</text>
+      <text x="104" y="59" font-size="22" font-weight="750" fill="#f7fbff">Enter your registration</text>
+      <text x="104" y="88" font-size="16" fill="#a7bdd5">Preview your plate as you build.</text>
+      <rect x="32" y="132" width="328" height="72" rx="14" fill="#f7fbff"/>
+      <rect x="48" y="148" width="18" height="40" rx="3" fill="#1e63bd"/>
+      <text x="74" y="181" font-size="28" font-weight="800" letter-spacing="2" fill="#101c2b">AB12 CDE</text>
+      <text x="32" y="244" font-size="15" fill="#94adca">Fast registration preview</text>
+    </g>
+
+    <g transform="translate(514 410)">
+      <rect width="392" height="280" rx="28" fill="url(#darkPanel)" stroke="#5a87b8" stroke-opacity="0.32"/>
+      <circle cx="58" cy="60" r="28" fill="url(#blueGlow)"/>
+      <text x="58" y="68" font-size="25" text-anchor="middle" fill="#fff" font-weight="700">2</text>
+      <text x="104" y="59" font-size="22" font-weight="750" fill="#f7fbff">Choose style &amp; size</text>
+      <text x="104" y="88" font-size="16" fill="#a7bdd5">Front, rear, or a matching pair.</text>
+      <g transform="translate(32 132)">
+        <rect width="328" height="44" rx="12" fill="#101d30" stroke="#6f99c5" stroke-opacity="0.32"/>
+        <text x="18" y="28" font-size="16" fill="#d5e2f1">Standard (Legal)</text>
+        <text x="299" y="28" font-size="18" text-anchor="middle" fill="#78b7ff">⌄</text>
+        <rect y="56" width="102" height="44" rx="12" fill="#1b70ec"/>
+        <text x="51" y="84" font-size="15" text-anchor="middle" fill="#fff" font-weight="700">Front</text>
+        <rect x="113" y="56" width="102" height="44" rx="12" fill="#101d30" stroke="#6f99c5" stroke-opacity="0.32"/>
+        <text x="164" y="84" font-size="15" text-anchor="middle" fill="#d5e2f1">Rear</text>
+        <rect x="226" y="56" width="102" height="44" rx="12" fill="#101d30" stroke="#6f99c5" stroke-opacity="0.32"/>
+        <text x="277" y="84" font-size="15" text-anchor="middle" fill="#d5e2f1">Pair</text>
+      </g>
+    </g>
+
+    <g transform="translate(942 410)">
+      <rect width="392" height="280" rx="28" fill="url(#darkPanel)" stroke="#5a87b8" stroke-opacity="0.32"/>
+      <circle cx="58" cy="60" r="28" fill="url(#blueGlow)"/>
+      <text x="58" y="68" font-size="25" text-anchor="middle" fill="#fff" font-weight="700">3</text>
+      <text x="104" y="59" font-size="22" font-weight="750" fill="#f7fbff">We make your plates</text>
+      <text x="104" y="88" font-size="16" fill="#a7bdd5">Royal Mail delivery or Ilford collection.</text>
+      <rect x="32" y="132" width="328" height="52" rx="13" fill="url(#blueGlow)"/>
+      <text x="196" y="165" font-size="18" text-anchor="middle" fill="#fff" font-weight="750">Start building  →</text>
+      <text x="32" y="229" font-size="15" fill="#94adca">Order before 2pm on a working weekday</text>
+      <text x="32" y="254" font-size="15" fill="#94adca">for same-day dispatch aims.</text>
+    </g>
+    <text x="86" y="815" font-size="15" fill="#88a4c2">DVLA-registered supplier (RNPS 75449)  •  12,000+ plates sold since Jan 2025</text>
+  </g>
+
+  <!-- SECTION 2: reasons, light background -->
+  <rect y="900" width="1440" height="1030" fill="url(#lightBg)"/>
+  <path d="M0 900H1440V975C1320 942 1200 942 1080 975C955 1009 830 1017 700 982C555 943 438 941 300 976C175 1007 75 1007 0 977Z" fill="#07111f" opacity="0.95"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="82" y="1084" font-size="16" font-weight="700" letter-spacing="3" fill="#327de0">COMMON REASONS</text>
+    <text x="82" y="1158" font-size="50" font-weight="800" fill="#091426">Why are you replacing</text>
+    <text x="82" y="1218" font-size="50" font-weight="800" fill="#2679eb">your plates?</text>
+    <text x="954" y="1120" font-size="16" fill="#40536a">From damage to loss or an MOT query, there are</text>
+    <text x="954" y="1146" font-size="16" fill="#40536a">many reasons you might need new plates.</text>
+    <text x="954" y="1172" font-size="16" fill="#40536a">Find the right next step below.</text>
+
+    <!-- reason card helper groups -->
+    <g filter="url(#softShadow)">
+      <g transform="translate(60 1280)">
+        <rect width="420" height="250" rx="24" fill="#ffffff" stroke="#dbe6f2"/>
+        <rect width="420" height="112" rx="24" fill="url(#photoA)"/>
+        <path d="M28 77L148 22L381 50L420 22V112H0V95Z" fill="#0d1b2c" opacity="0.32"/>
+        <text x="211" y="78" text-anchor="middle" font-size="44" font-weight="800" letter-spacing="3" fill="#dae7f1" transform="rotate(-5 211 78)">AB12 CDE</text>
+        <circle cx="48" cy="112" r="26" fill="#f7fbff" stroke="#cddded"/>
+        <path d="M40 111h16M40 111l5-5M40 111l5 5" stroke="#247be8" stroke-width="3" stroke-linecap="round" fill="none"/>
+        <text x="28" y="158" font-size="19" font-weight="800" fill="#0b1727">Cracked or damaged</text>
+        <text x="28" y="185" font-size="15" fill="#506175">A broken plate can be hard to read and</text>
+        <text x="28" y="207" font-size="15" fill="#506175">may not meet legal display requirements.</text>
+        <circle cx="374" cy="206" r="22" fill="#eff5fb" stroke="#d8e4ef"/><text x="374" y="213" text-anchor="middle" font-size="22" fill="#1c6ed2">→</text>
+      </g>
+      <g transform="translate(510 1280)">
+        <rect width="420" height="250" rx="24" fill="#ffffff" stroke="#dbe6f2"/>
+        <rect width="420" height="112" rx="24" fill="url(#photoB)"/>
+        <path d="M0 81L85 52L180 71L305 20L420 62V112H0Z" fill="#1c1a1b" opacity="0.38"/>
+        <text x="211" y="77" text-anchor="middle" font-size="44" font-weight="800" letter-spacing="3" fill="#e8d6c9" transform="rotate(4 211 77)">AB12 CDE</text>
+        <circle cx="48" cy="112" r="26" fill="#f7fbff" stroke="#cddded"/><text x="48" y="120" text-anchor="middle" font-size="24" fill="#247be8">◌</text>
+        <text x="28" y="158" font-size="19" font-weight="800" fill="#0b1727">Faded, or an MOT query</text>
+        <text x="28" y="185" font-size="15" fill="#506175">Worn backing or characters that are</text>
+        <text x="28" y="207" font-size="15" fill="#506175">hard to read are common reasons.</text>
+        <circle cx="374" cy="206" r="22" fill="#eff5fb" stroke="#d8e4ef"/><text x="374" y="213" text-anchor="middle" font-size="22" fill="#1c6ed2">→</text>
+      </g>
+      <g transform="translate(960 1280)">
+        <rect width="420" height="250" rx="24" fill="#ffffff" stroke="#dbe6f2"/>
+        <rect width="420" height="112" rx="24" fill="url(#photoC)"/>
+        <path d="M0 15L180 78L420 42V112H0Z" fill="#080b12" opacity="0.72"/>
+        <text x="211" y="79" text-anchor="middle" font-size="44" font-weight="800" letter-spacing="3" fill="#b7c5d0" transform="rotate(-4 211 79)">AB12</text>
+        <circle cx="48" cy="112" r="26" fill="#f7fbff" stroke="#cddded"/><text x="48" y="121" text-anchor="middle" font-size="24" fill="#247be8">✣</text>
+        <text x="28" y="158" font-size="19" font-weight="800" fill="#0b1727">Stolen</text>
+        <text x="28" y="185" font-size="15" fill="#506175">Report it to the police first, then</text>
+        <text x="28" y="207" font-size="15" fill="#506175">order replacement plates.</text>
+        <circle cx="374" cy="206" r="22" fill="#eff5fb" stroke="#d8e4ef"/><text x="374" y="213" text-anchor="middle" font-size="22" fill="#1c6ed2">→</text>
+      </g>
+      <g transform="translate(60 1565)">
+        <rect width="420" height="250" rx="24" fill="#ffffff" stroke="#dbe6f2"/>
+        <rect width="420" height="112" rx="24" fill="url(#photoD)"/>
+        <path d="M0 12L110 50L250 27L420 88V112H0Z" fill="#0d0f13" opacity="0.42"/>
+        <text x="211" y="78" text-anchor="middle" font-size="44" font-weight="800" letter-spacing="3" fill="#e7e1d8" transform="rotate(-8 211 78)">AB12 CDE</text>
+        <circle cx="48" cy="112" r="26" fill="#f7fbff" stroke="#cddded"/><text x="48" y="121" text-anchor="middle" font-size="23" fill="#247be8">⌖</text>
+        <text x="28" y="158" font-size="19" font-weight="800" fill="#0b1727">Lost</text>
+        <text x="28" y="185" font-size="15" fill="#506175">Order just the plate you need.</text>
+        <circle cx="374" cy="206" r="22" fill="#eff5fb" stroke="#d8e4ef"/><text x="374" y="213" text-anchor="middle" font-size="22" fill="#1c6ed2">→</text>
+      </g>
+      <g transform="translate(510 1565)">
+        <rect width="420" height="250" rx="24" fill="#ffffff" stroke="#dbe6f2"/>
+        <rect width="420" height="112" rx="24" fill="url(#photoA)"/>
+        <path d="M0 96L95 62L204 76L315 40L420 80V112H0Z" fill="#10283c" opacity="0.56"/>
+        <text x="211" y="79" text-anchor="middle" font-size="44" font-weight="800" letter-spacing="3" fill="#e7f0f4">AB12 CDE</text>
+        <circle cx="48" cy="112" r="26" fill="#f7fbff" stroke="#cddded"/><text x="48" y="121" text-anchor="middle" font-size="23" fill="#247be8">▣</text>
+        <text x="28" y="158" font-size="19" font-weight="800" fill="#0b1727">Only one plate needs replacing</text>
+        <text x="28" y="185" font-size="15" fill="#506175">Order a single plate and tell us the size</text>
+        <text x="28" y="207" font-size="15" fill="#506175">and style of the one you're keeping.</text>
+        <circle cx="374" cy="206" r="22" fill="#eff5fb" stroke="#d8e4ef"/><text x="374" y="213" text-anchor="middle" font-size="22" fill="#1c6ed2">→</text>
+      </g>
+      <g transform="translate(960 1565)">
+        <rect width="420" height="250" rx="24" fill="#ffffff" stroke="#dbe6f2"/>
+        <rect width="420" height="112" rx="24" fill="url(#photoC)"/>
+        <path d="M0 103L120 45L280 68L420 27V112H0Z" fill="#0b111b" opacity="0.64"/>
+        <text x="211" y="80" text-anchor="middle" font-size="44" font-weight="800" letter-spacing="3" fill="#f4c734">AB12 CDE</text>
+        <circle cx="48" cy="112" r="26" fill="#f7fbff" stroke="#cddded"/><text x="48" y="121" text-anchor="middle" font-size="23" fill="#247be8">⌁</text>
+        <text x="28" y="158" font-size="19" font-weight="800" fill="#0b1727">A bike rack or trailer hides your plate</text>
+        <text x="28" y="185" font-size="15" fill="#506175">A trailer must show the same plate as</text>
+        <text x="28" y="207" font-size="15" fill="#506175">the towing vehicle and must not obscure it.</text>
+        <circle cx="374" cy="206" r="22" fill="#eff5fb" stroke="#d8e4ef"/><text x="374" y="213" text-anchor="middle" font-size="22" fill="#1c6ed2">→</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- SECTION 3: style chooser -->
+  <rect y="1930" width="1440" height="1270" fill="url(#darkBg)"/>
+  <ellipse cx="1210" cy="2310" rx="430" ry="340" fill="#1473ff" opacity="0.12" filter="url(#blurGlow)"/>
+  <path d="M0 1930H1440V1994C1300 1964 1194 1974 1068 2017C930 2064 825 2055 698 2000C580 1949 463 1943 328 1985C200 2024 90 2025 0 1988Z" fill="#edf3fa"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="82" y="2145" font-size="16" font-weight="700" letter-spacing="3" fill="#75b3ff">PLATE STYLES</text>
+    <text x="82" y="2217" font-size="50" font-weight="800" fill="#f8fbff">Choose your style, <tspan fill="#2e91ff">priced per plate.</tspan></text>
+    <text x="82" y="2262" font-size="18" fill="#a9bdd3">Every style is made to order. Choose a single plate or matching pair.</text>
+    <rect x="1160" y="2150" width="200" height="56" rx="28" fill="#12263e" stroke="#6f9dcc" stroke-opacity="0.45"/>
+    <text x="1260" y="2185" text-anchor="middle" font-size="16" font-weight="700" fill="#e7f1fc">View all styles  →</text>
+
+    <!-- style cards -->
+    <g filter="url(#shadow)">
+      <g transform="translate(60 2320)">
+        <rect width="210" height="530" rx="24" fill="url(#darkPanel)" stroke="#5d85ae" stroke-opacity="0.35"/>
+        <rect x="14" y="14" width="182" height="154" rx="17" fill="url(#plateWhite)"/>
+        <rect x="14" y="14" width="18" height="154" rx="7" fill="#1e63bd"/>
+        <text x="105" y="108" text-anchor="middle" font-size="27" font-weight="900" letter-spacing="2" fill="#102033">AB12</text>
+        <text x="26" y="215" font-size="22" font-weight="800" fill="#fff">Standard (Legal)</text>
+        <text x="26" y="247" font-size="15" fill="#b4c6d9">Flat printed</text><text x="26" y="269" font-size="15" fill="#b4c6d9">characters</text>
+        <text x="26" y="326" font-size="14" fill="#8fa9c4">FROM</text><text x="26" y="359" font-size="27" font-weight="800" fill="#fff">£12.49</text><text x="26" y="385" font-size="14" fill="#9fb3c7">Pair £24.98</text>
+        <circle cx="171" cy="466" r="23" fill="#d9e8f8"/><text x="171" y="474" text-anchor="middle" font-size="22" fill="#1261c8">→</text>
+      </g>
+      <g transform="translate(290 2320)">
+        <rect width="210" height="530" rx="24" fill="url(#darkPanel)" stroke="#5d85ae" stroke-opacity="0.35"/>
+        <rect x="14" y="14" width="182" height="154" rx="17" fill="url(#plateWhite)"/>
+        <rect x="14" y="14" width="18" height="154" rx="7" fill="#1e63bd"/>
+        <text x="105" y="110" text-anchor="middle" font-size="27" font-weight="900" letter-spacing="2" fill="#102033" stroke="#64778a" stroke-width="2" paint-order="stroke">AB12</text>
+        <text x="26" y="215" font-size="22" font-weight="800" fill="#fff">3D gel</text><text x="26" y="247" font-size="15" fill="#b4c6d9">Raised, domed</text><text x="26" y="269" font-size="15" fill="#b4c6d9">resin characters</text>
+        <text x="26" y="326" font-size="14" fill="#8fa9c4">FROM</text><text x="26" y="359" font-size="27" font-weight="800" fill="#fff">£19.95</text><text x="26" y="385" font-size="14" fill="#9fb3c7">Pair £39.90</text>
+        <circle cx="171" cy="466" r="23" fill="#d9e8f8"/><text x="171" y="474" text-anchor="middle" font-size="22" fill="#1261c8">→</text>
+      </g>
+      <g transform="translate(520 2320)">
+        <rect width="210" height="530" rx="24" fill="url(#darkPanel)" stroke="#5d85ae" stroke-opacity="0.35"/>
+        <rect x="14" y="14" width="182" height="154" rx="17" fill="url(#plateBlack)"/>
+        <text x="105" y="110" text-anchor="middle" font-size="27" font-weight="900" letter-spacing="2" fill="#e7edf5">AB12</text>
+        <text x="26" y="215" font-size="22" font-weight="800" fill="#fff">4D</text><text x="26" y="247" font-size="15" fill="#b4c6d9">Laser-cut acrylic</text><text x="26" y="269" font-size="15" fill="#b4c6d9">characters</text>
+        <text x="26" y="326" font-size="14" fill="#8fa9c4">FROM</text><text x="26" y="359" font-size="27" font-weight="800" fill="#fff">£19.95</text><text x="26" y="385" font-size="14" fill="#9fb3c7">Pair £39.90</text>
+        <circle cx="171" cy="466" r="23" fill="#d9e8f8"/><text x="171" y="474" text-anchor="middle" font-size="22" fill="#1261c8">→</text>
+      </g>
+      <g transform="translate(750 2320)">
+        <rect width="210" height="530" rx="24" fill="url(#darkPanel)" stroke="#5d85ae" stroke-opacity="0.35"/>
+        <rect x="14" y="14" width="182" height="154" rx="17" fill="#e1ad18"/><text x="105" y="110" text-anchor="middle" font-size="27" font-weight="900" letter-spacing="2" fill="#101723">AB12</text>
+        <text x="26" y="215" font-size="22" font-weight="800" fill="#fff">5D</text><text x="26" y="247" font-size="15" fill="#b4c6d9">Acrylic characters</text><text x="26" y="269" font-size="15" fill="#b4c6d9">with a gel layer</text>
+        <text x="26" y="326" font-size="14" fill="#8fa9c4">FROM</text><text x="26" y="359" font-size="27" font-weight="800" fill="#fff">£34.95</text><text x="26" y="385" font-size="14" fill="#9fb3c7">Pair £69.90</text>
+        <circle cx="171" cy="466" r="23" fill="#d9e8f8"/><text x="171" y="474" text-anchor="middle" font-size="22" fill="#1261c8">→</text>
+      </g>
+      <g transform="translate(980 2320)">
+        <rect width="210" height="530" rx="24" fill="url(#darkPanel)" stroke="#5d85ae" stroke-opacity="0.35"/>
+        <rect x="14" y="14" width="182" height="154" rx="17" fill="#101722" stroke="#3f536a"/><text x="105" y="110" text-anchor="middle" font-size="27" font-weight="900" letter-spacing="2" fill="#8c9aa8">AB12</text>
+        <text x="26" y="215" font-size="22" font-weight="800" fill="#fff">Ghost</text><text x="26" y="247" font-size="15" fill="#b4c6d9">Distinctive styled</text><text x="26" y="269" font-size="15" fill="#b4c6d9">character finish</text>
+        <text x="26" y="326" font-size="14" fill="#8fa9c4">FROM</text><text x="26" y="359" font-size="27" font-weight="800" fill="#fff">£34.95</text><text x="26" y="385" font-size="14" fill="#9fb3c7">Pair £69.90</text>
+        <circle cx="171" cy="466" r="23" fill="#d9e8f8"/><text x="171" y="474" text-anchor="middle" font-size="22" fill="#1261c8">→</text>
+      </g>
+      <g transform="translate(1210 2320)">
+        <rect width="170" height="530" rx="24" fill="url(#darkPanel)" stroke="#5d85ae" stroke-opacity="0.35"/>
+        <rect x="14" y="14" width="142" height="154" rx="17" fill="url(#plateWhite)"/><text x="85" y="110" text-anchor="middle" font-size="25" font-weight="900" letter-spacing="2" fill="#102033">AB12</text>
+        <text x="26" y="215" font-size="22" font-weight="800" fill="#fff">Bevel</text><text x="26" y="247" font-size="15" fill="#b4c6d9">Angled, diamond-cut</text><text x="26" y="269" font-size="15" fill="#b4c6d9">character edges</text>
+        <text x="26" y="326" font-size="14" fill="#8fa9c4">FROM</text><text x="26" y="359" font-size="27" font-weight="800" fill="#fff">£39.95</text><text x="26" y="385" font-size="14" fill="#9fb3c7">Pair £79.90</text>
+        <circle cx="131" cy="466" r="23" fill="#d9e8f8"/><text x="131" y="474" text-anchor="middle" font-size="22" fill="#1261c8">→</text>
+      </g>
+    </g>
+    <rect x="60" y="2932" width="1320" height="104" rx="28" fill="#102039" stroke="#52769e" stroke-opacity="0.42"/>
+    <circle cx="100" cy="2984" r="20" fill="#2379ef"/><text x="100" y="2992" text-anchor="middle" font-size="22" fill="#fff">i</text>
+    <text x="138" y="2978" font-size="16" fill="#eef5fd">All prices are per plate; a pair is two plates (front and rear) at the price shown.</text>
+    <text x="138" y="3004" font-size="15" fill="#9bb2ca">Also made to order: Motorcycle  •  Short  •  Hex  •  Japanese import  •  Oversized</text>
+  </g>
+
+  <!-- slim handoff marker -->
+  <rect y="3160" width="1440" height="40" fill="#06101e"/>
+  <text x="720" y="3186" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" letter-spacing="2" fill="#6386a9">FIRST POST-HERO UI IMAGE  /  SECTIONS 01–03</text>
+</svg>
