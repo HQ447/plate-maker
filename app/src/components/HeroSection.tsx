@@ -225,6 +225,7 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
+      <div className="absolute bottom-0 left-0 h-8 w-full bg-[#eef3f8] [clip-path:polygon(0_100%,27%_0,50%_70%,73%_0,100%_100%)]" />
     </section>
   );
 }
